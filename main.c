@@ -3,28 +3,76 @@
 
 int main()
 {
-    double num1;
-    double num2;
-    char op;
+     char Name [20];
+     char Surname [20];
+     char Middlename [2];
+     int Birthdate [3];
+     Birthdate [1];
+     Birthdate [2];
+     Birthdate [3];
+     int month = 0;
 
-    printf("Enter a number:");
-    scanf("%lf", &num1);
-    printf ("Enter operator:");
-    scanf (" %c", &op);
-    printf ("Enter a number:");
-    scanf ( "%lf" , &num2);
 
-    if(op == '+') {
-        printf("%f" , num1+num2);
-    } else if (op == '-') {
-         printf("%f" , num1-num2);
-    } else if (op == '/') {
-        printf ("%f" , num1/num2);
-    }  else if ( op == '*') {
-        printf ("%f" , num1*num2);
-    } else {
-       printf("Invalid Operator!");
-    }
+
+
+     /*printf ( "Enter your Name :");
+     scanf ("%s" , &Name);
+     printf ("Your name is %s\n" , Name);*/
+
+
+
+         do {
+        printf ("Enter your month of birth");
+        scanf ("%d" , &month);
+
+        if (month 1< || month >12)
+        printf ("Error date must be 1 to 12\n");
+
+        }while  (month 1< || month >12);
+       printf ("month of your birth %d\n" , month);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*printf ("Enter your Surname :");
+     scanf ("%s" , &Surname);
+     printf ("Your Surname is %s\n" , Surname);
+
+     printf ("Enter your middle name :");
+     scanf ("%s" , &Middlename);
+     printf ("Your middle name is %s" , Middlename);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     return 0;
